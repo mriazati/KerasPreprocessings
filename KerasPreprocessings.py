@@ -450,7 +450,7 @@ if build_and_train: #Model is not already generated and trained
 			print ("NOTTTTEEEEE")
 			batch_size = 128
 
-		epochs_param = 100
+		epochs_param = 10
 		if network == "lenet-quantized": 
 			epochs_param = 1 #this accuracy doesn't matter. It is handeled in quantization process
 			print ("Quantized network: Remember to copy ")
